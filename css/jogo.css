@@ -1,0 +1,21 @@
+body{
+  background-image: url('../img/background.png');
+  margin: 0px;
+}
+div{
+
+  transition: width 2s;
+}
+header h2{
+  text-align: center;
+  color: white;
+}
+input{
+border: solid;
+}
+#msg{
+  background-color: white;
+  width: 300px;
+  height: 20px;
+  display: inline-block;
+}

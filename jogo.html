@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <script src="https://code.jquery.com/jquery-3.1.0.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Calibri" rel="stylesheet">
+    <link rel="stylesheet" href="css/jogo.css">
+    <script src="js/jogo.js"></script>
+    <title>Jogo da Memória</title>
+  </head>
+  <body>
+  <header>
+   <h2 align="center"><b>Assessment Arthur Matias</b></h2>
+	<center>
+        <!-- <input type="text" id="msg" size="45" /> -->
+        <div id="msg">...</div>
+        <input type="button" value="Novo Jogo" onclick="novoJogo();" />
+    <center>
+	</header>
+    <table align="center">
+      <tr>
+      <td><img src="./img/carta_virada.png" name="campo" onclick="verificarCarta(0);" /></td>
+      <td><img src="./img/carta_virada.png" name="campo" onclick="verificarCarta(1);" /></td>
+      <td><img src="./img/carta_virada.png" name="campo" onclick="verificarCarta(2);" /></td>
+      <td><img src="./img/carta_virada.png" name="campo" onclick="verificarCarta(3);" /></td>
+      <td><img src="./img/carta_virada.png" name="campo" onclick="verificarCarta(4);" /></td>
+      <td><img src="./img/carta_virada.png" name="campo" onclick="verificarCarta(5);" /></td>
+      <td><img src="./img/carta_virada.png" name="campo" onclick="verificarCarta(6);" /></td>
+      <td><img src="./img/carta_virada.png" name="campo" onclick="verificarCarta(7);" /></td>
+      </tr>
+      <tr>
+	  <td><img src="./img/carta_virada.png" name="campo" onclick="verificarCarta(8);" /></td>
+      <td><img src="./img/carta_virada.png" name="campo" onclick="verificarCarta(9);" /></td>
+      <td><img src="./img/carta_virada.png" name="campo" onclick="verificarCarta(10);" /></td>
+      <td><img src="./img/carta_virada.png" name="campo" onclick="verificarCarta(11);" /></td>
+	  <td><img src="./img/carta_virada.png" name="campo" onclick="verificarCarta(12);" /></td>
+	  <td><img src="./img/carta_virada.png" name="campo" onclick="verificarCarta(13);" /></td>
+	  <td><img src="./img/carta_virada.png" name="campo" onclick="verificarCarta(14);" /></td>
+	  <td><img src="./img/carta_virada.png" name="campo" onclick="verificarCarta(15);" /></td>
+      </tr>
+	  </table>
+  </body>
+</html>
